@@ -12,8 +12,6 @@ android {
         missingDimensionStrategy "store", "google"
         missingDimensionStrategy "pay_status", "free"
     }
-
-
 }
 
 dependencies {
