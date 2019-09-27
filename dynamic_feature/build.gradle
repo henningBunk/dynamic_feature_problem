@@ -10,10 +10,12 @@ android {
         versionName "1.0"
 
         missingDimensionStrategy "store", "google"
-        missingDimensionStrategy "pay_status", "free"
     }
-
-
+    flavorDimensions "pay_status"
+    productFlavors {
+        free { dimension "pay_status" }
+        pro { dimension "pay_status" }
+    }
 }
 
 dependencies {
