@@ -4,41 +4,42 @@
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":app" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.5.0" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="3.5.0" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="googleProDebug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleGoogleProDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileGoogleProDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="googleFreeDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleGoogleFreeDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileGoogleFreeDebugSources" />
         <afterSyncTasks>
-          <task>generateGoogleProDebugSources</task>
+          <task>generateGoogleFreeDebugSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/build/generated/res/resValues/googlePro/debug" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/build/generated/res/resValues/googleFree/debug" />
         <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/amazonProReleaseUnitTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleFreeRelease/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleFreeRelease/java;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonProDebugAndroidTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleFreeDebugAndroidTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleProDebugAndroidTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleProDebugUnitTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonFreeReleaseUnitTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleFreeReleaseUnitTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleFreeDebug/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleFreeDebug/java;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonProDebug/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonProDebug/java;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleProDebug/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleProDebug/java;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonFreeDebug/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonFreeDebug/java;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonFreeDebugUnitTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonProDebugUnitTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonFreeDebugAndroidTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonFreeRelease/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonFreeRelease/java;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleProRelease/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleProRelease/java;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleProReleaseUnitTest/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonProRelease/kotlin;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/amazonProRelease/java;/Users/henning.bunk/repos/android/dynamic_feature_problem/app/src/googleFreeDebugUnitTest/kotlin">
         <compilerSettings />
         <compilerArguments>
-          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/googleProDebug" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/d207ce2c9bcf17dc8e51bab4dbfdac4d013e7138/kotlin-stdlib-jdk7-1.3.21.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/f9a6efc28dde8131038774ba9c3d5945/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/43d27fcb0d4b3d6f08cd4cb08d943cd5/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/31e17ae1ca2acb2d562401f1af21932a/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/1456c840d4c2319f523310d8b7a9755f/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/a70afe74919acc6838d1799f12cece0a/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/b7e8db9dacd04c735ed3bd97b64c3821/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/0f9df8bcbbdd14addd63436307fabd92/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/bd4c540669b748a5994a225e5efb2ce0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/ad115cc85e9d8095e4c907c82acec99b/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/86cd35e4628e11f612e79e0ba6d649da/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/7fc284979ae8805e7bc00f496ed9c5b3/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/9251d28d37a0a29c061ebbc38f0bac87/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/43e9abfaae2fc11bb101137c9aeedaa9/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/c4103f587a44f90f8a5b173f197564d8/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/ea1d0e81291bf63d093531f486596c5f/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/d722eeba24bb225cccd0b2976c53febd/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/943b778fa2d228c2ab6fc13f53e4ca64/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/1417bdad0f23dbe70ec5b568d15c7251/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/8a2f6a902ff422e2ded48a3a25ef62f8/jars/classes.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/bf9eea3bcdfa36adb7959ff3b469c979/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/034587edafde52e30f731e75eda85490/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/ecc58dab5171ea8181145b3088470195/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/f37139f404e6003bf9377665f027def9/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/0c6aff8661b5a17667b9bd9fd8388565/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/cbcfe149ea8577efd26a76f657e4e80d/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/b21f3b857626a2183082258f39e63dd4/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/490cc3c2a42f5e7407dd06cd28d0f2c7/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/6ef98ce8069eedafedb12f218b5ec777/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/2cc2fde54f94e60f6d2212bb73dd7741/jars/classes.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/cf489f536c2e345b682858a5d4518a79/jars/classes.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/149e31db67d34481e1138cd3f5d4cca6/jars/classes.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/henning.bunk/Library/Android/sdk/platforms/android-28/android.jar" />
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/googleFreeDebug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bde938e22d372e7c1b69c36f8f972d66/design-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/acdbfaf1c46bae02bf38cfc4ad9bc04d/appcompat-v7-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/c0948df1aeabf225a7aa52457416bfd6/support-fragment-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/a226fb6224369b08edb679f30c484705/animated-vector-drawable-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/d7c0ad774bcb2b0e7a06b901e7726115/recyclerview-v7-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/446ed911c954446cd3a120b95a345a8c/support-core-ui-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/6c6d88d5a7fb6ab12d0cedacfd7ff3ae/support-core-utils-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/3c32f1d1b9c1e844f8bd89af66f21ef3/support-vector-drawable-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/508d86c39f7d8d83047f69684d0f741d/transition-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/ec530c6b1d8f3d68ed0193763c8d74cf/loader-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/6eb1eb323b5ba9214ca98c2dc3044cd8/viewpager-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/09bacfa56d446ca87f5f7e9fa9c7672b/coordinatorlayout-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/e8fac26130082e820949112b5ff3954f/drawerlayout-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/726f739e7241f09f993db2c6cce6f088/slidingpanelayout-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/920bf552de1976a190626c3f998519cf/customview-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/b090da92bd288c0714ab5220fd9c5dbe/swiperefreshlayout-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/d5bf4346cec214fb88035b5431060aee/asynclayoutinflater-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/425d973768ef61fa36883c1e8adbaabf/support-compat-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/ad18c6dd9cd726bfa6995f00996e575b/versionedparcelable-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/b48d458a1f012b3203481e4f6cb4573f/cursoradapter-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/e4711ed2c5672c0260ad44d293464fe5/cardview-v7-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/e10c91504c7d60b9d6c1a0bab98c7899/runtime-1.1.1/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/081f9908fdb09f75cd9bd56ccd941d31/documentfile-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/fe237116c4820a36f05aa734ea1d2f8c/localbroadcastmanager-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/bf0f8174cb721bdfe93c95af3d7aed00/print-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/a3b9c4edf77c710c0b895e16350907db/viewmodel-1.1.1/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/a130a1f23a9e6f3cbdb1187c285e599b/interpolator-28.0.0/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/13e79882b8fe464e96001cd6b5b547f4/livedata-1.1.1/jars/classes.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/fd4d5e75413e87b718ca0cfb52783a09/livedata-core-1.1.1/jars/classes.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/bafd73677600743198bbd8d94df8f9e2/runtime-1.1.1/jars/classes.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/d207ce2c9bcf17dc8e51bab4dbfdac4d013e7138/kotlin-stdlib-jdk7-1.3.21.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/henning.bunk/.gradle/caches/transforms-2/files-2.1/f3d5f3c37040ddda77236e06fa449449/constraint-layout-1.1.3/jars/classes.jar:/Users/henning.bunk/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/henning.bunk/repos/android/dynamic_feature_problem/lib/build/intermediates/compile_library_classes/freeDebug/classes.jar:/Users/henning.bunk/Library/Android/sdk/platforms/android-28/android.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
-          <option name="moduleName" value="app_googleProDebug" />
-          <option name="addCompilerBuiltIns" value="true" />
-          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="moduleName" value="app_googleFreeDebug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
           <option name="pluginOptions">
             <array>
               <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
               <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
               <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
-              <option value="plugin:org.jetbrains.kotlin.android:configuration=rO0ABXoAAAF7AAAAAwAIZmVhdHVyZXMAAAABAAV2aWV3cwAHcGFja2FnZQAAAAEAD2NvbS5leGFtcGxlLmFwcAAHdmFyaWFudAAAAAUAO21haW47L1VzZXJzL2hlbm5pbmcuYnVuay9yZXBvcy9hbmRyb2lkL0FwcC9hcHAvc3JjL21haW4vcmVzAD9hbWF6b247L1VzZXJzL2hlbm5pbmcuYnVuay9yZXBvcy9hbmRyb2lkL0FwcC9hcHAvc3JjL2FtYXpvbi9yZXMAO2ZyZWU7L1VzZXJzL2hlbm5pbmcuYnVuay9yZXBvcy9hbmRyb2lkL0FwcC9hcHAvc3JjL2ZyZWUvcmVzAD9nb29nbGU7L1VzZXJzL2hlbm5pbmcuYnVuay9yZXBvcy9hbmRyb2lkL0FwcC9hcHAvc3JjL2dvb2dsZS9yZXMAOXBybzsvVXNlcnMvaGVubmluZy5idW5rL3JlcG9zL2FuZHJvaWQvQXBwL2FwcC9zcmMvcHJvL3Jlcw==" />
             </array>
           </option>
           <option name="pluginClasspaths">
@@ -54,65 +55,65 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/build/intermediates/javac/googleProDebug/compileGoogleProDebugJavaWithJavac/classes" />
-    <output-test url="file://$MODULE_DIR$/build/intermediates/javac/googleProDebugUnitTest/compileGoogleProDebugUnitTestJavaWithJavac/classes" />
+    <output url="file://$MODULE_DIR$/build/intermediates/javac/googleFreeDebug/classes" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/javac/googleFreeDebugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/googlePro/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/googleProDebug/compileGoogleProDebugAidl/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/googlePro/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/googleProDebug/compileGoogleProDebugRenderscript/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/googlePro/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/googlePro/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googleProDebug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googleProDebug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googleProDebug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googleProDebug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googleProDebug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googleProDebug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googleProDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googlePro/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googlePro/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googlePro/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googlePro/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googlePro/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googlePro/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/googlePro/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/googlePro/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/googleProDebugAndroidTest/compileGoogleProDebugAndroidTestAidl/out" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/googlePro/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/googleProDebugAndroidTest/compileGoogleProDebugAndroidTestRenderscript/out" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/googlePro/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/googlePro/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleProDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleProDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleProDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleProDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleProDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleProDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleProDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGooglePro/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGooglePro/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGooglePro/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGooglePro/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGooglePro/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGooglePro/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGooglePro/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/googlePro/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleProDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleProDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleProDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleProDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleProDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleProDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleProDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGooglePro/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGooglePro/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGooglePro/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGooglePro/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGooglePro/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGooglePro/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testGooglePro/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/googleFreeDebug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/googleFreeDebug/compileGoogleFreeDebugAidl/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/googleFree/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/googleFreeDebug/compileGoogleFreeDebugRenderscript/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/googleFree/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/googleFree/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFreeDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFreeDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFreeDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFreeDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFreeDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFreeDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFreeDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFree/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFree/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFree/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFree/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFree/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFree/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/googleFree/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/googleFreeDebugAndroidTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/googleFreeDebugAndroidTest/compileGoogleFreeDebugAndroidTestAidl/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/googleFree/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/googleFreeDebugAndroidTest/compileGoogleFreeDebugAndroidTestRenderscript/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/googleFree/debug" type="java-test-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/googleFree/debug" type="java-test-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFreeDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFreeDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFreeDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFreeDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFreeDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFreeDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFreeDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFree/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFree/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFree/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFree/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFree/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFree/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestGoogleFree/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/googleFreeDebugUnitTest/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFreeDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFreeDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFreeDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFreeDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFreeDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFreeDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFreeDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFree/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFree/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFree/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFree/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFree/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFree/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testGoogleFree/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/google/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/google/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/google/assets" type="java-resource" />
@@ -134,27 +135,27 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testGoogle/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testGoogle/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testGoogle/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/pro/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/pro/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/pro/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/pro/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/pro/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/pro/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/pro/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testPro/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testPro/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testPro/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testPro/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testPro/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testPro/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testPro/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestPro/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestPro/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestPro/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestPro/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestPro/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestPro/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestPro/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/free/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/free/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/free/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/free/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/free/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/free/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/free/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestFree/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestFree/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestFree/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestFree/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestFree/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestFree/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestFree/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testFree/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testFree/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testFree/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testFree/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testFree/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testFree/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testFree/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
@@ -197,95 +198,50 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/build/generated/not_namespaced_r_class_sources" />
-      <excludeFolder url="file://$MODULE_DIR$/build/generated/source/r" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/annotation_processor_list" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/apk_list" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/app_classes" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundle_manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-libraries" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check_manifest_result" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/compatible_screen_manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/duplicate_classes_check" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/feature_set_metadata" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/feature_transitive_deps" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_app_manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_merged_manifests" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javac" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_assets" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_jni_libs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_manifests" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_shaders" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/metadata_base_module_declaration" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/metadata_feature_manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/processed_res" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shader_assets" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/signing_config" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/validate_signing_config" />
-      <excludeFolder url="file://$MODULE_DIR$/build/kotlin" />
-      <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.android.support:design:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-fragment:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:localbroadcastmanager:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel:1.1.1@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-idling-resource:3.0.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:loader:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.core:runtime:1.1.1@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:runner:1.0.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core:1.1.1@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup:javawriter:2.1.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:cursoradapter:28.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-core:3.0.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-compat:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:cardview-v7:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0@jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7:28.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:monitor:1.0.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:interpolator:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:transition:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.21@jar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:drawerlayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.1.3@jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: net.sf.kxml:kxml2:2.3.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:documentfile:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:slidingpanelayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:collections:28.0.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.1.3@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:print:28.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:2.0.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable:28.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12@jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:viewpager:28.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-integration:1.3@jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.1.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:design:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-fragment:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:transition:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:loader:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:viewpager:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:coordinatorlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:drawerlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:slidingpanelayout:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:customview:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:swiperefreshlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-compat:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:cursoradapter:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:cardview-v7:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:documentfile:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:localbroadcastmanager:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:print:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:interpolator:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:runtime:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.1.3@aar" level="project" />
+    <orderEntry type="module" module-name="lib" />
   </component>
 </module>
